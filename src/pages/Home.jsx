@@ -7,11 +7,13 @@ import GrowthSection from "../components/GrowthSection";
 import AutoCarousel from "../components/AutoCarousel";
 import MeditationCarousel from "../components/MeditationCarousel";
 import DeviceSection from "../components/DeviceSection";
-
+import GetStartedSection from "../components/GetStartedSection"
 import "../App.css"
 import NowAvailable from "../components/NowAvailabe";
 import PressSection from "../components/PressSection";
 import SuccessStoriesSection from "../components/SuccessStoriesSection";
+import AdvancedPrograms from "../components/AdvancedPrograms";
+import OtherComp from "../components/OthersComp";
 
 const Home = () => {
     return (
@@ -27,6 +29,9 @@ const Home = () => {
         <DeviceSection />
         <PressSection />
         <SuccessStoriesSection />
+        <GetStartedSection />
+        <AdvancedPrograms />
+        <OtherComp/>
         </Box>
     )
 };
